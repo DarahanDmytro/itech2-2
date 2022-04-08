@@ -1,0 +1,121 @@
+body{
+  display: flex;
+  jusitify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  --redy: #e33;
+  background: navy;
+}
+
+header{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 20%;
+    background: var(--redy);
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+h1{
+    margin: auto 20px;
+    background: yellow;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+main{
+    margin: 20%;
+    top: 20%;
+    height: 60%;
+    width: 95%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.block{
+    background: white;
+    display: flex;
+    order: 2; 
+    padding: 20px 40px;
+    padding-top: 0;
+    border-radius: 10px;
+    flex-basis: 0.4;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1% 5%;
+    width: 45%;
+}
+
+table{
+    margin-top: 15%;
+}
+
+table, tr, th, td{
+    background: white;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th{
+    border: none;
+}
+
+caption{
+    background: white;
+    border: 1px solid black;
+    border-bottom: none;
+}
+
+p{
+    font-size: 15px;
+    color: #a00;
+    text-align: center;
+}
+
+aside{
+    order: 1;
+    background: lightgray;
+    border: 3px solid black;
+    padding: 20px 40px;
+    margin: 1% 5%;
+    flex-basis: 0.6;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 80%;
+    height: 20%;
+    background-color: var(--redy);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid black;
+}
+
+footer img{
+    border: 3px solid black;
+}
+
+li{
+    margin: 10px;
+}
+
+a:link, a:visited{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
